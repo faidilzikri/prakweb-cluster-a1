@@ -1,0 +1,36 @@
+
+/*bagian header*/
+.wrap .header{
+ 
+width:784px;
+height:200px;
+}
+
+
+/*bagian sidebar*/
+.wrap  .sidebar{
+ 
+float: left;	
+width: 200px;
+height:auto;
+ 
+}
+
+/*content*/
+.wrap .content{
+ 
+float: left;
+height: auto;
+width: 584px;	
+}
+
+/*footer */ 
+.wrap .footer{
+ 
+float: left;
+width: 784px;
+height: 100px;
+ 
+}
+ 
+
