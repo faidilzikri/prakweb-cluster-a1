@@ -1,0 +1,42 @@
+{
+    "dataDiri": {
+        "nama": {
+            "awal": "Faidil",
+            "akhir": "Zikri"
+        },
+
+        "jenisKelamin": "Laki-laki",
+
+        "alamat": {
+            "desa": "Pangkalan Jati Baru",
+            "kecamatan": "Cinere",
+            "kabupaten": "Depok"
+        },
+
+        "mediaSosial": {
+            "facebook": "faidilzikri",
+            "instagram": "faidilzikri"
+        },
+
+        "saudara": {},
+
+        "orangTua": {
+            "bapak": {
+                "nama": {
+                    "awal": "Nama",
+                    "akhir": "Samaran Bapak"
+                }
+            },
+            "ibu": {
+                "nama": {
+                    "awal": "Nama",
+                    "akhir": "Samaran Ibu"
+                }
+            }
+        },
+
+        "hobi": {
+            "kegiatan": ["Nonton Anime", "Main Game", "Tidur"]
+        }
+    }
+}
