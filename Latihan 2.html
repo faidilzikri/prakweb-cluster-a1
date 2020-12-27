@@ -1,70 +1,48 @@
-<!DOCTYPE html>
-<html>
 <head>
-    <title>Latihan 2 </title>
+    <title>Latihan 2</title>
 </head>
+
 <body>
-    <form action="contact.php" method="GET">
-        <fieldset>
-        <legend>Registrasi</legend>
-        <p>
-            <label>Nama:</label>
-            <input type="text" name="nama" placeholder="Nama lengkap..." />
-        </p>
+    <table border="2">
+        <tr>
+            <th colspan="2">Biodata Mahasiswa</th>
+        </tr>
 
-        <p>
-            <label>Username:</label>
-            <input type="text" name="username" placeholder="Username..." />
-        </p>
+        <form>
+            <tr>
+                <td><label>Nama :</label></td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td><label>NIM :</label></td>
+                <td><input type="number" name="nim"></td>
+            </tr>
+            <tr>
+                <td><label>Jenis Kelamin :</label></td>
+                <td><select name="kelamin" class="form-control">
+                        <option hidden>Pilih Jenis Kelamin</option>
+                        <option value="Pria">Pria</option>
+                        <option value="Wanita">Wanita</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label>Alamat :</label></td>
+                <td><textarea type="text" name="alamat" style="width:300px; height: 100px;"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Hobby</label></td>
+                <td><input type="checkbox" name="hobby" value="Olahraga">Olahraga<br>
+                    <input type="checkbox" name="hobby" value="Membaca Buku">Membaca Buku<br>
+                    <input type="checkbox" name="hobby" value="Bermain Game">Bermain Game<br></td>
+            </tr>
+            <tr>
+                <td><label>Password :</label></td>
+                <td><input type="password" name="pwd"></td>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="submit" name="submit"></th>
+            </tr>
+        </form>
 
-        <p>
-            <label>Email:</label>
-            <input type="email" name="email" placeholder="Your email..." />
-        </p>
-
-        <p>
-            <label>Password:</label>
-            <input type="password" name="password" placeholder="Passowrd..." />
-        </p>
-
-        <p>
-            <label>Jenis kelamin:</label>
-            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
-            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
-        </p>
-
-        <p>
-            <label>Agama:</label>
-            <select name="agama">
-                <option value="islam">Islam</option>
-                <option value="kristen">Kristen</option>
-                <option value="hindu">Hindu</option>
-                <option value="budha">Budha</option>
-            </select>
-        </p>
-
-        <p>
-            <label>Biografi:</label>
-            <textarea name="biografi"></textarea>
-        </p>
-        <p>
-            <input type="submit" name="submit" value="Daftar" />
-        </p>
-
-        <p> 
-            <table boder="3" cellpadding="10" bgcolor="pink" >
-                <caption> Tabel 1 </caption>
-                <tr bgcolor="yellow">
-                    <td>Baris 1 kolom 1</td>
-                    <td>baris 1 kolom 2</td>
-                </tr>
-                <tr bgcolor="blue">
-                    <td>Baris 2 kolom 1</td>
-                    <td>baris 2 kolom 2</td>
-                </tr>
-            </table>
-        </p>
-        </fieldset>
-    </form>
+    </table>
 </body>
-</html>
